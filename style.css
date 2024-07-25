@@ -20,22 +20,20 @@ body{10
     text-align: center;
     padding: 20px;
 }
-
 h1{
     color: var(--cor-destaque);
 
-}
 
-button {
-background-color:var(--cor-secundaria);
-    color:var(--cor-texto);
-    border: none;
-    border-radius:15px;
-    padding:15px;
-    transition: background-color 0.3s;
-}
 
-button:hover {
-    background-color: var(--cor-destaque);
-    color: var(--cor-principal);
+
+    button{
+        backgrand-color:var(--cor-secundaria);
+        color:var(--cor-texto
+                  border: none;
+        barder -radius:15 px;
+        podding:15 px
+                  transtion:background-color 0.3 s;
+                  }
+                  
+
 }
