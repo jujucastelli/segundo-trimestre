@@ -6,7 +6,7 @@ const textoResultado= document.querySelector(".texto-resultado");
 
 const perguntas = [
   {
-    enunciado:"Qual o melhor mapa na opinião do Matheus"
+    enunciado:"Qual o melhor mapa na opinião do Juliana"
       alternativas: [
   {
  texto: "Breeze";
@@ -15,7 +15,8 @@ afirmaçao: "afirmaçao";
 {
   texto: "Sunset";
 
-
+afirmaçao: "afirmaçao";
+}
             ]
 },
 {
@@ -26,14 +27,14 @@ afirmaçao: "afirmaçao";
             ]
 },
 {
-    enunciado:"Qual foi o peak do Matheus?"
+    enunciado:"Qual foi o peak Juliana?"
       alternativas: [
         "Imortal 1";
         "Ascendente 3";
             ]
 },
 {
-    enunciado:"Qual o main do Matheus?"
+    enunciado:"Qual o main do JUliana?"
       alternativas: [
         "Jett";
         "Clove";
