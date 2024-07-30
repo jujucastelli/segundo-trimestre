@@ -6,52 +6,52 @@ const textoResultado= document.querySelector(".texto-resultado");
 
 const perguntas = [
   {
-    enunciado:"Qual o melhor mapa na opinião do Juliana"
+    enunciado:"Vc gosta de miojo uliana"
       alternativas: [
   {
- texto: "Breeze";
+ texto: "Sim";
 afirmaçao: "afirmaçao";
 }
 {
-  texto: "Sunset";
+  texto: "Não";
 
 afirmaçao: "afirmaçao";
 }
             ]
 },
 {
-    enunciado:"Qual o agente mais divertido de jogar?"
+    enunciado:"Qual a melhor comida "
       alternativas: [
-        "Reyna";
-        "Jett";
+        "Lasanha";
+        "Picanha";
             ]
 },
 {
-    enunciado:"Qual foi o peak Juliana?"
+    enunciado:"Qual foi sua melhor comida Juliana?"
       alternativas: [
-        "Imortal 1";
-        "Ascendente 3";
+        "Pastel ";
+        "Linguiça";
             ]
 },
 {
-    enunciado:"Qual o main do JUliana?"
+    enunciado:"quem é melhor JUliana?"
       alternativas: [
-        "Jett";
-        "Clove";
+        "Cristiano Ronaldo";
+        "Neymar";
             ]
 },
 {
-    enunciado:"perguntas 5"
+    enunciado:"quantos anos messi tem"
       alternativas: [
-        "alternativa 1";
-        "alternativa 2";
+        "38";
+        "37";
             ]
 },
 ];
 
 let atual = 0;
 let perguntaAtual;
-
+let historiaFinal;
 function mostraPergunta() {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
@@ -67,3 +67,14 @@ function mostraAlternativas() {
 }
 
 mostraPergunta();
+
+
+
+
+
+let atual=0;
+let perguntaAtual;
+let historiaFinal="";
+
+function mostraPergunta() {
+  if (atual>=pergunta.lenght)
